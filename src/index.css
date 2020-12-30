@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-color: #f0f0f0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  color: #f0f0f0;
+  background: #3c94e6;
+  transition: 300ms ease-out;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-instagram,
+.fa-github {
+  background: #f0f0f0;
+  color: #3c94e6;
+}
+
+.sosmed {
+  margin: 20px;
+}
+
+.cntr {
+  justify-content: center;
+}
+
+.button {
+  color: #fefefe;
+  display: block;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #6eb5f8;
+}
+
+.bg-biru {
+  background-color: #3c94e6;
+}
+
+.btn-container {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  .sosmed {
+    margin: 10px;
+  }
 }
