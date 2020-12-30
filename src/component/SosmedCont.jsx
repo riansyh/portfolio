@@ -4,7 +4,7 @@ import Sosmed from './Sosmed'
 export default class SosmedCont extends Component {
     render() {
         return (
-            <div className="flex mx-auto cntr">
+            <div className="flex mx-auto cntr transform scale-75 lg:scale-100">
             <Sosmed
             classes="fa fa-facebook"
             link="https://facebook.com/yanz.dheractionz"

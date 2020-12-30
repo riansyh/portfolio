@@ -58,8 +58,40 @@
   margin: 0 auto;
 }
 
+.acc-atas,
+.acc-bawah {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acc-atas {
+  background-image: url(./img/up.png);
+  top: 0;
+}
+
+.acc-bawah {
+  background-image: url(./img/down.png);
+  right: 0;
+  top: 327px;
+  z-index: -9999;
+}
+
 @media (max-width: 1080px) {
   .sosmed {
     margin: 10px;
+  }
+
+  .acc-atas,
+  .acc-bawah {
+    width: 100px;
+    height: 100px;
+  }
+
+  .acc-bawah {
+    top: 297px;
+    right: -10px;
   }
 }

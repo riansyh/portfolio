@@ -8,8 +8,8 @@ export default class Header extends Component {
             <div>
             <Profil/>
             <SosmedCont/>
-            <h2 className="font-bold text-4xl text-center text-gray-800">Rian Febriansyah</h2>
-            <p className="text-xl text-center mb-8 text-gray-600">Graphic Designer</p>
+            <h2 className="font-bold text-3xl lg:text-4xl text-center text-gray-800">Rian Febriansyah</h2>
+            <p className="lg:text-xl text-lg text-center mb-8 text-gray-600">Graphic Designer</p>
             </div>
         )
     }
