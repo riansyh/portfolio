@@ -1,0 +1,96 @@
+.porto {
+  margin-top: 80px;
+}
+
+.title-portofolio {
+  width: 26%;
+  margin: 60px auto;
+  margin-bottom: 24px;
+  color: #fafafa;
+  font-size: 21px;
+  text-align: center;
+  padding: 10px 1px;
+  border-radius: 47px;
+  background-color: #61aaee;
+  opacity: 71%;
+}
+
+#red {
+  background-color: rgb(199, 86, 82);
+}
+
+.card-port {
+  margin: 20px 0;
+  border-radius: 30px;
+  padding: 0;
+  transition: 500ms ease-in-out;
+}
+
+.card-port:hover {
+  box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.05);
+  transition: 500ms ease-in-out;
+  transform: scale(1.1);
+}
+
+.modal {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-inner {
+  position: absolute;
+  max-height: 80%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  overflow: scroll;
+}
+
+.modal-head {
+  position: fixed;
+  height: 60px;
+  width: 70%;
+  border-radius: 30px 30px 0 0;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+.modal-head h4 {
+  margin: 18px 20px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.modal-introduction {
+  overflow: scroll;
+}
+
+.modal-close-btn {
+  color: #111111;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: #111111;
+  border-radius: 30px;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}

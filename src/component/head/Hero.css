@@ -1,0 +1,124 @@
+.hero {
+  background-color: #3c94e6;
+  height: 320px;
+  padding-top: 40px;
+  color: #fafafa;
+}
+
+.hero-name {
+  font-size: 68px;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-weight: 400;
+  opacity: 70%;
+}
+
+.sosmed {
+  position: absolute;
+  top: 70%;
+  right: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 100%;
+  color: #3c94e6;
+  transition: 300ms ease-out;
+  text-decoration: none;
+  background-color: #fafafa;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-instagram,
+.fa-github {
+  color: #fafafa;
+  opacity: 70%;
+}
+
+.sosmed-unit {
+  display: inline-block;
+  margin: 10px 0px;
+  transform: scale(0.9);
+}
+
+a.sosmed {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .hero {
+    height: 540px;
+    padding: 24px;
+  }
+
+  .hero-name {
+    font-size: 46px;
+  }
+
+  .sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .hero {
+    height: 540px;
+    padding: 24px;
+  }
+
+  .hero-name {
+    font-size: 46px;
+  }
+  .sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .hero {
+    height: 540px;
+    padding: 24px;
+  }
+
+  .hero-name {
+    font-size: 46px;
+  }
+  .sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 540px;
+    padding: 24px;
+  }
+
+  .sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .hero-name {
+    font-size: 40px;
+  }
+}
