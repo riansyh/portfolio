@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: rehn;
+  src: url("./font/REHN-MEDIUM.OTF");
+}
+
+@font-face {
+  font-family: rehn-bold;
+  src: url("./font/REHN-BOLD.OTF");
+}
+
+@font-face {
+  font-family: rehn-light;
+  src: url("./font/REHN-LIGHT.OTF");
+}
+
+@font-face {
+  font-family: rehn-xtra;
+  src: url("./font/REHN-EXTRABOLD.OTF");
+}
+
+.font-rehn {
+  font-family: rehn;
+}
+
+.rehn-light {
+  font-family: rehn-light;
+}
+
 .bg {
   background-color: #f0f0f0;
 }
@@ -45,7 +73,7 @@
   font-size: 20px;
   text-align: center;
   padding: 10px 0;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: #6eb5f8;
 }
 
@@ -92,6 +120,5 @@
 
   .acc-bawah {
     top: 297px;
-    right: -10px;
   }
 }

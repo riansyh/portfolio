@@ -5,7 +5,7 @@ export default class Foot extends Component {
     render() {
         return (
             <div className="bg-biru pb-8 lg:pb-8">
-                <p className="text-center lg:px-72 p-8 lg:text-2xl text-base text-gray-50">Undergraduate Computer Science student Padjadjaran University, creative and loyal person, interested in graphic design and front-end web development. </p>
+                <p className="text-center rehn-light lg:px-72 p-8 lg:text-2xl text-base text-gray-50">Undergraduate Computer Science student Padjadjaran University, creative and loyal person, interested in graphic design and front-end web development. </p>
                 <div className="btn-container flex-row lg:flex">
                     <Button
                     name="CV"
