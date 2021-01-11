@@ -2,9 +2,14 @@
 @import "./component/head/Hero.css";
 @import "./component/head/Bio.css";
 @import "./component/main/Main.css";
+@import "./component/main/about/about.css";
+@import "./component/main/skill/skill.css";
+@import "./component/footer/footer.css";
+@import "./page/Gallery.css";
 
 body {
   font-family: poppins !important;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #fefefe !important;
 }

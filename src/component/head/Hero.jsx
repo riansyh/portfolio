@@ -16,7 +16,9 @@ export default class Hero extends Component {
                             <p className="sub-title">Welcome to my portfolio wesbite!</p>
                         </div>
                     </div>
-                    <Sosmed/>
+                    <Sosmed
+                    kelas="sosmed"
+                    />
                 </div>
             </div>
         )

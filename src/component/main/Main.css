@@ -24,11 +24,14 @@
   border-radius: 30px;
   padding: 0;
   transition: 500ms ease-in-out;
+  height: auto !important;
+  overflow: hidden;
 }
 
 .card-port:hover {
   box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.05);
   transition: 500ms ease-in-out;
+  cursor: pointer;
   transform: scale(1.1);
 }
 
@@ -43,16 +46,17 @@
 }
 
 .modal-inner {
+  display: flex;
   position: absolute;
-  max-height: 80%;
+  max-height: 90%;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   width: 70%;
   margin: auto;
-  background-color: rgb(255, 255, 255);
-  border-radius: 30px;
+  background-color: #fafafa;
+  border-radius: 20px;
   overflow: scroll;
 }
 
@@ -60,25 +64,36 @@
   position: fixed;
   height: 60px;
   width: 70%;
-  border-radius: 30px 30px 0 0;
+  border-radius: 20px 20px 0 0;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+.modal-foot {
+  position: fixed;
+  bottom: 5%;
+  height: 35px;
+  width: 70%;
+  border-radius: 0 0 20px 20px;
   background-color: #fafafa;
   overflow: hidden;
 }
 
 .modal-head h4 {
-  margin: 18px 20px;
+  margin: 18px 30px;
   width: 100%;
   font-weight: 600;
+  font-size: 20px;
 }
 
-.modal-introduction {
-  overflow: scroll;
+.modal-image {
+  padding: 30px 20px 30px 30px;
 }
 
 .modal-close-btn {
   color: #111111;
   position: absolute;
-  right: 10px;
+  right: 20px;
   top: 10px;
   border: 0;
   background-color: #ffffff;
@@ -93,4 +108,66 @@
   color: #8491a5;
   background-color: #ccd9ea;
   transition: 0.3s ease-in-out;
+}
+
+.modal ::-webkit-scrollbar {
+  width: 10px;
+  height: 80%;
+}
+
+.modal ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin: 30px;
+}
+
+.modal ::-webkit-scrollbar-thumb {
+  background: rgb(212, 208, 208);
+  margin: 30px;
+}
+
+.container-card {
+  position: relative;
+}
+
+.container-card a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.more-porto {
+  background-color: #c75652;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  border-radius: 30px;
+  transition: 0.5s;
+  width: 100%;
+  height: 86%;
+  margin-top: 22px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.more {
+  transform: scale(2);
+  transition: 300ms ease-out;
+}
+
+.more:hover {
+  transform: scale(2.5);
+  transition: 300ms ease-out;
+}
+
+@media (max-width: 1200px) {
+  .modal-inner {
+    height: fit-content;
+  }
+
+  .modal-foot {
+    display: none;
+  }
+
+  .title-portofolio {
+    width: 40%;
+  }
 }

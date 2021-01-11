@@ -4,10 +4,10 @@ import SosmedUnit from './SosmedUnit'
 export default class Sosmed extends Component {
     render() {
         return (
-            <div className="sosmed">
+            <div className={this.props.kelas}>
             <SosmedUnit
-            classes="fa fa-facebook"
-            link="https://facebook.com/yanz.dheractionz"
+            classes="fa fa-dribbble"
+            link="https://dribbble.com/riansyh"
             />
             
             <SosmedUnit
@@ -27,4 +27,8 @@ export default class Sosmed extends Component {
             </div>
         )
     }
+}
+
+Sosmed.defaultProps = {
+    kelas: "sosmed"
 }

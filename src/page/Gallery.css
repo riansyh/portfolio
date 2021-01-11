@@ -1,0 +1,31 @@
+.head-gallery {
+  padding: 40px;
+  min-height: 200px;
+  background-color: #3c94e6;
+}
+
+.head-gallery h1 {
+  color: #fafafa;
+  font-weight: 600;
+  text-align: center;
+}
+
+.back {
+  text-align: center;
+  cursor: pointer;
+  color: #fafafa;
+  opacity: 80%;
+  margin-top: 40px;
+  transition: 300ms ease-out;
+}
+
+.back:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+  transition: 300ms ease-out;
+}
+
+.about-gallery {
+  text-align: center;
+  font-size: 22px;
+}

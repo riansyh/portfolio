@@ -8,7 +8,7 @@ export default class SosmedUnit extends Component {
                 target="_blank"
                 rel="noreferrer"
                 class={this.props.classes}
-              ></a>
+              > </a>
             </div>
         )
     }

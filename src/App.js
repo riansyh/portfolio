@@ -1,23 +1,22 @@
-// import logo from "./logo.svg";
-import "./App.css";
-import Head from "./component/head/Head";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Main from "./component/main/Main";
-// import Foot from "./component/Foot";
-// import Header from "./component/Header";
+import "./App.css";
+
+import Footer from "./component/footer/Footer";
+import Gallery from "./page/Gallery";
+import HomePage from "./page/Home";
 
 function App() {
   return (
-    // <div className="mx-auto font-rehn">
-    //   <div className="acc-atas"></div>
-    //   <div className="acc-bawah"></div>
-    //   <Header />
-    //   <Foot />
-    // </div>
-    <div>
-      <Head />
-      <Main />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/" exact component={HomePage}></Route>
+          <Route path="/gallery" component={Gallery}></Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

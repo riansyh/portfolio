@@ -1,0 +1,43 @@
+.about-me {
+  margin-top: 120px;
+  display: block;
+  width: 100%;
+  padding: 72px;
+  background-color: #3c94e6;
+  text-align: center;
+  overflow: hidden;
+}
+
+.judul {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h2 {
+  font-weight: 600;
+  color: #fafafa;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.me {
+  transform: scale(2);
+}
+
+.judul {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.about-me p {
+  text-align: left;
+  color: #fafafa;
+  font-size: 19px;
+}
+
+@media (max-width: 1200px) {
+  .about-me p {
+    text-align: center;
+  }
+}

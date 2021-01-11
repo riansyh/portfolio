@@ -28,7 +28,7 @@ export default class Bio extends Component {
                             <span className="badge-rf">Front-end Dev.</span>
                         </div>
                         <div className="col-xl d-flex align-items-center justify-content-end">
-                            <a className="button outline" href="">
+                            <a className="button outline" href="https://drive.google.com/file/d/197E9oRIRasFXVoganxEPD5Uxzav-ReEs/view?usp=sharing">
                                 Download My CV
                             </a>
                         </div>
