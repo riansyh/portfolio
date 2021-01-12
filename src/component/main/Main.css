@@ -4,19 +4,22 @@
 
 .title-portofolio {
   width: 26%;
-  margin: 60px auto;
+  margin: 30px auto;
   margin-bottom: 24px;
   color: #fafafa;
   font-size: 21px;
   text-align: center;
   padding: 10px 1px;
   border-radius: 47px;
-  background-color: #61aaee;
-  opacity: 71%;
+  background-color: #68adec;
+}
+
+.porto-gal {
+  margin-top: 0 !important;
 }
 
 #red {
-  background-color: rgb(199, 86, 82);
+  background-color: rgb(219, 126, 123);
 }
 
 .card-port {
@@ -91,16 +94,16 @@
 }
 
 .modal-close-btn {
-  color: #111111;
+  background-image: url(./../../svg/Shape.svg);
   position: absolute;
+  background-size: cover;
   right: 20px;
   top: 10px;
   border: 0;
   background-color: #ffffff;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
-  background-color: #111111;
+  width: 20px;
+  height: 20px;
   border-radius: 30px;
 }
 
@@ -169,5 +172,25 @@
 
   .title-portofolio {
     width: 40%;
+  }
+
+  .modal-head h4 {
+    font-size: 14px;
+  }
+
+  .modal-image {
+    padding: 20px 10px 20px 20px;
+    margin: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal-image {
+    padding: 10px 5px 10px 10px;
+    margin: 20px;
+  }
+
+  .modal-close-btn {
+    top: 14px;
   }
 }

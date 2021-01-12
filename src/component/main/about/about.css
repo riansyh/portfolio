@@ -40,4 +40,14 @@
   .about-me p {
     text-align: center;
   }
+
+  .about-me {
+    padding: 72px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-me p {
+    font-size: 17px;
+  }
 }

@@ -5,7 +5,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="about-me">
-                <div className="container">
+                <div className="container" data-aos="fade-right" data-aos-duration="1000">
                     <div className="row">
                         <div className="col-xl-4 judul">
                             <img src={logo.user} alt="user-icon" className="me"/>
@@ -15,7 +15,7 @@ export default class About extends Component {
                         </div>    
                         <div className="col-xl-8">
                             <p className="desc">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa odit sequi a quo dolore ea voluptatibus aperiam voluptates ad architecto unde repudiandae fuga magnam possimus sint, molestias eos est veritatis!
+                                Hello, my name is Rian Febriansyah, I am a Computer Science Student at Padjadjaran University, I love graphic design, UI/UX design, and front-end web development. I have 5 years of experience in graphic design. I also like solving the problem and implement the idea with design.
                             </p>                   
                         </div>
                     </div> 

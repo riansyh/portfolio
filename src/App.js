@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/" exact component={HomePage}></Route>
-          <Route path="/gallery" component={Gallery}></Route>
+          <Route path="/portfolio" exact component={HomePage}></Route>
+          <Route path="/portfolio/gallery" component={Gallery}></Route>
         </Switch>
         <Footer />
       </div>

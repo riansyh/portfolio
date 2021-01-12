@@ -12,63 +12,78 @@ import dg11 from "./dg11.png";
 import dg12 from "./dg12.png";
 import dg13 from "./dg13.png";
 import dg14 from "./dg14.png";
+import thumb from "./thumb/thumb";
 
 const desain = [
   {
     judul: "Desain Poster Covid-19",
     img: dg8,
+    thumb: thumb[7],
   },
   {
     judul: "Desain Poster Toleransi",
     img: dg9,
+    thumb: thumb[8],
   },
   {
     judul: "Desain Poster Al-Quran",
     img: dg10,
+    thumb: thumb[9],
   },
   {
     judul: "Desain Poster Toleransi",
     img: dg14,
+    thumb: thumb[13],
   },
   {
     judul: "Flat Design Jeruk",
     img: dg11,
+    thumb: thumb[10],
   },
   {
     judul: "Flat Design Jaket Himatif",
     img: dg12,
+    thumb: thumb[11],
   },
   {
     judul: "Flat Design Pohon",
     img: dg13,
+    thumb: thumb[12],
   },
   {
     judul: "Vector Art",
     img: dg5,
+    thumb: thumb[4],
   },
   {
     judul: "Lukisan Bendera Indonesia",
     img: dg6,
+    thumb: thumb[5],
   },
   {
     judul: "Feeds Padjadjaran Week 2021",
     img: dg1,
+    thumb: thumb[0],
   },
   {
     judul: "Feeds Mipa Care 2020",
     img: dg2,
+    thumb: thumb[1],
   },
   {
     judul: "Microblog BEM FMIPA 2020",
     img: dg3,
+    thumb: thumb[2],
   },
   {
     judul: "Microblog Pribadi",
     img: dg7,
+    thumb: thumb[6],
   },
   {
     judul: "Design Pemilu Himatif",
     img: dg4,
+    thumb: thumb[3],
   },
 ];
 

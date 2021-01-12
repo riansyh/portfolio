@@ -27,10 +27,10 @@ export default class Card extends Component {
                     <div className='modal-inner'>
                         <div className='modal-head'>
                             <h4>{this.props.name}</h4>
-                        <button
+                        <div
                             className='modal-close-btn'
                             onClick={() => this.handleClose()}
-                        ></button>
+                        ></div>
                         </div>
                         
                         <div className='modal-image'>
@@ -45,8 +45,8 @@ export default class Card extends Component {
 
         return (
             <Fragment>
-            <div className="col-xl-4 col-md-10 col-sm-10 col-xs-10 justify-items-center img-center container-card" onClick={()=>this.handleClick()}>
-                <img src={this.props.source} className="card-port" alt="portofolio" width="100%"/>
+            <div className="col-xl-4 col-md-10 col-sm-10 col-xs-10 justify-items-center img-center container-card" onClick={()=>this.handleClick()} data-aos="fade-up" data-aos-duration="1000">
+                <img src={this.props.thumb} className="card-port" alt="portofolio" width="100%"/>
             </div>
             {modal}
             </Fragment>

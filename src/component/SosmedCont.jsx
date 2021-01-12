@@ -1,34 +1,30 @@
 import React, { Component } from 'react'
-import SosmedUnit from './SosmedUnit'
+import Sosmed from './Sosmed'
 
-export default class Sosmed extends Component {
+export default class SosmedCont extends Component {
     render() {
         return (
-            <div className={this.props.kelas} data-aos="fade-left" data-aos-duration="500">
-            <SosmedUnit
-            classes="fa fa-dribbble"
-            link="https://dribbble.com/riansyh"
+            <div className="flex mx-auto cntr transform scale-75 lg:scale-100">
+            <Sosmed
+            classes="fa fa-facebook"
+            link="https://facebook.com/yanz.dheractionz"
             />
             
-            <SosmedUnit
+            <Sosmed
             classes="fa fa-instagram"
             link="https://www.instagram.com/rian.fbrsyh/"
             />            
 
-            <SosmedUnit
+            <Sosmed
             classes="fa fa-linkedin"
             link="https://www.linkedin.com/in/rian-febriansyah-a23699183/"
             />            
 
-            <SosmedUnit
+            <Sosmed
             classes="fa fa-github"
             link="https://github.com/riansyh/"
-            />  
+            />            
             </div>
         )
     }
-}
-
-Sosmed.defaultProps = {
-    kelas: "sosmed"
 }

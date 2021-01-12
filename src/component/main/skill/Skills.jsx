@@ -6,7 +6,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div className="skill container">
-                <div className="skill-tool">
+                <div className="skill-tool" data-aos="fade-up" data-aos-duration="1000">
                     <div className=" row rocket justify-content-center">
                         <img src={logo.rocket} alt="rocket-icon" className="rocket"/>
                     </div>
@@ -15,7 +15,7 @@ export default class Skills extends Component {
                     </div>
                     <div className="row desc-tool">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, tempore? Modi facere possimus suscipit sapiente delectus necessitatibus. Rem perspiciatis eligendi reprehenderit sequi non incidunt ullam quibusdam, minima quae. Excepturi, ipsum?
+                            Here, some tools that I use frequently and skills that I have learned. As time goes by, I will learn new things and scale up my skills. The other tools or skills that I have learned are Adobe Photoshop, Adobe After Effect, Bootstrap, C++, Python, PHP, and Java.
                         </p>
                     </div>
                     <div className="row tool-container justify-content-center">

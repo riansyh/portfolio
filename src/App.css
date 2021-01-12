@@ -13,3 +13,40 @@ body {
   scroll-behavior: smooth;
   background-color: #fefefe !important;
 }
+
+.loader-cont {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #fafafa;
+  z-index: 999999;
+}
+
+.loader {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border: 12px solid #e9e9e9; /* Light grey */
+  border-top: 12px solid #3c94e6; /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+.available {
+  opacity: 0%;
+  transition: 500ms ease-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

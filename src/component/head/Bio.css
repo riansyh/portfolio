@@ -92,25 +92,37 @@ a.button:hover {
   font-weight: 600;
   margin-right: 15px;
   padding: 10px 19px;
-  background-color: rgba(199, 86, 82, 0.3);
-  color: rgba(199, 86, 82);
-  border-radius: 40px;
+  background-color: rgba(82, 142, 199, 0.3);
+  color: rgb(86, 127, 202);
+  border-radius: 10px;
+}
+
+.badge-container {
+  display: flex;
 }
 
 .outline {
   font-weight: 600;
-  color: rgba(199, 86, 82);
-  border: 1px solid rgba(199, 86, 82);
+  color: #3c94e6;
+  border: 1px solid #3c94e6;
   padding: 10px 20px;
   border-radius: 30px;
 }
 
+.outline .icon {
+  margin-right: 10px;
+}
+
 a.outline:hover {
-  color: rgba(199, 86, 82);
-  background-color: #eee;
+  color: #3c94e6;
+  background-color: #badbfa;
 }
 
 @media (max-width: 1200px) {
+  .badge-container {
+    justify-content: center;
+  }
+
   .about {
     text-align: center !important;
   }
@@ -132,12 +144,23 @@ a.outline:hover {
 
   .nama {
     margin-top: 120px;
+    margin-bottom: 10px;
+  }
+
+  .porto {
+    margin-top: 40px;
   }
 
   .outline {
     margin: auto;
     text-align: center;
     justify-content: center !important;
-    margin-top: 50px;
+    margin-top: 32px;
+  }
+
+  .badge-rf {
+    font-size: 10px;
+    padding: 10px 15px;
+    margin: 0 7px;
   }
 }

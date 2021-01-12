@@ -11,8 +11,8 @@
 }
 
 .sub-title {
+  color: #bbd6f1;
   font-weight: 400;
-  opacity: 70%;
 }
 
 .sosmed {
@@ -32,7 +32,6 @@
 }
 
 .fa:hover {
-  opacity: 100%;
   color: #3c94e6;
   transition: 300ms ease-out;
   text-decoration: none;
@@ -44,7 +43,6 @@
 .fa-instagram,
 .fa-github {
   color: #fafafa;
-  opacity: 70%;
 }
 
 .sosmed-unit {
