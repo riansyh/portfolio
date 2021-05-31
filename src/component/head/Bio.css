@@ -28,7 +28,7 @@ a.button:hover {
 }
 
 .about .btn-white::before {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   position: absolute;
@@ -37,7 +37,7 @@ a.button:hover {
   border-top: 16px solid #fff;
   border-bottom: 16px solid transparent;
   left: 42%;
-  bottom: 24%;
+  bottom: -24px;
   border-radius: 1000px;
 }
 
@@ -45,7 +45,7 @@ a.button:hover {
   color: #3c94e6;
   width: fit-content;
   width: -moz-fit-content;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 600;
   font-size: 16px;
   background-color: #fff;
@@ -162,5 +162,17 @@ a.outline:hover {
     font-size: 10px;
     padding: 10px 15px;
     margin: 0 7px;
+  }
+}
+
+@keyframes MoveUpDown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
   }
 }

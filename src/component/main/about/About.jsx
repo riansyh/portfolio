@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from './../../../svg/Logo'
 
 export default class About extends Component {
     render() {
@@ -8,7 +7,7 @@ export default class About extends Component {
                 <div className="container" data-aos="fade-right" data-aos-duration="1000">
                     <div className="row">
                         <div className="col-xl-4 judul">
-                            <img src={logo.user} alt="user-icon" className="me"/>
+                            <div className="me"></div>
                             <h2>
                                 About me
                             </h2>

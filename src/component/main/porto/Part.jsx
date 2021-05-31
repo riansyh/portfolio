@@ -16,25 +16,10 @@ export default class Part extends Component {
                     name="Poster Covid-19"
                     />
                     <Card
-                    thumb={thumb[11]}
-                    source={desain[5].img}
-                    name="Jaket Himatif"
-                    />
-                    <Card
                     thumb={thumb[14]}
                     source={ui[0].img}
                     name="Music Player App"
                     />
-                    <Card
-                    thumb={thumb[15]}
-                    source={ui[1].img}
-                    name="Redesign BimaPlus"
-                    />
-                    <Card
-                    thumb={thumb[16]}
-                    source={ui[2].img}
-                    name="Wonderful Majalengka"
-                    />         
                     <SeeMore />
                 </div>
             </Fragment>

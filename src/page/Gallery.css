@@ -26,11 +26,15 @@
 
 .about-gallery {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 
-@media (ax-width: 1200px) {
+@media (max-width: 1200px) {
   .about-gallery .outline {
     margin-top: 0 !important;
+  }
+
+  .about-gallery {
+    padding: 20px;
   }
 }

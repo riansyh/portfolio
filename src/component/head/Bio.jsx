@@ -31,7 +31,7 @@ export default class Bio extends Component {
                             </div>
                         </div>
                         <div className="col-xl d-flex align-items-center justify-content-end">
-                            <a className="button outline" href="https://drive.google.com/file/d/197E9oRIRasFXVoganxEPD5Uxzav-ReEs/view?usp=sharing">
+                            <a className="button outline" href="https://drive.google.com/file/d/1tGJdgFp9gG1ysB2n9UcYFgu2xo5n91Nc/view?usp=sharing">
                                  <img src={download} alt="download-icon" className="icon"/>
                                 Download CV
                             </a>

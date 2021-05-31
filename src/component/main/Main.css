@@ -4,7 +4,7 @@
 
 .title-portofolio {
   width: 26%;
-  margin: 30px auto;
+  margin: 44px auto;
   margin-bottom: 24px;
   color: #fafafa;
   font-size: 21px;
@@ -12,6 +12,10 @@
   padding: 10px 1px;
   border-radius: 47px;
   background-color: #68adec;
+}
+
+.desc-tool p {
+  font-size: 19px;
 }
 
 .porto-gal {
@@ -161,6 +165,12 @@
   transition: 300ms ease-out;
 }
 
+@media (max-width: 500px) {
+  .title-portofolio {
+    width: 60%;
+  }
+}
+
 @media (max-width: 1200px) {
   .modal-inner {
     height: fit-content;
@@ -170,10 +180,6 @@
     display: none;
   }
 
-  .title-portofolio {
-    width: 40%;
-  }
-
   .modal-head h4 {
     font-size: 14px;
   }
@@ -181,6 +187,10 @@
   .modal-image {
     padding: 20px 10px 20px 20px;
     margin: 30px;
+  }
+
+  .desc-tool p {
+    font-size: 16px;
   }
 }
 

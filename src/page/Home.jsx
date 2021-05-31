@@ -11,7 +11,7 @@ export default class Home extends Component {
             ld.classList.add('available')
             setTimeout(() => {
             loading.outerHTML = '';
-            }, 300)
+            }, 1000)
         }
     }
 
